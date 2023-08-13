@@ -9,10 +9,11 @@ for (var i = 0; i < newArray.length; i++) {
 
 var useFunc = function (type) {
     return typeof type
+    console.log(useFunc(false));
+    console.log(useFunc('HI'));
+    console.log(useFunc(88));
 }
-console.log(useFunc(false));
-console.log(useFunc('HI'));
-console.log(useFunc(88));
+
 
 
 
