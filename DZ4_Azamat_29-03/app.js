@@ -42,9 +42,18 @@ for (var i = 0; i < types.length; i++) {
 }
 
 var result2 = [];
+<<<<<<< HEAD
 result2.push(nul, undef, str, num);
+=======
+result2.push(undef, nul, num, str);
+>>>>>>> f7ca4c4d56b4ef730b24b56c7f3f2c90f1dc0b07
 
 result2.sort(function(a, b) {
     return a.length - b.length;
 });
+<<<<<<< HEAD
 console.log(result2);
+=======
+console.log(result2);
+
+>>>>>>> f7ca4c4d56b4ef730b24b56c7f3f2c90f1dc0b07
