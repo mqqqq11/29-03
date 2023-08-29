@@ -1,0 +1,17 @@
+span {
+    display: block;
+    padding: 12px;
+}
+
+.mystery {
+    padding: 40px 0;
+    text-align: center;
+}
+
+button {
+    background-color: green;
+}
+
+.answer {
+    display: none;
+}
